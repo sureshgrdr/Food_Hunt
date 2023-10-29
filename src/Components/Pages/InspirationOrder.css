@@ -1,0 +1,53 @@
+.inspDiv {
+  margin-top: 0.6em;
+  background-color: rgb(241, 241, 241);
+}
+.inspBox {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 0;
+  /* background-color: aquamarine; */
+}
+.inspWrapper {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: calc((100% / 5));
+  grid-template-columns: repeat(auto-fill, auto);
+  list-style-type: none;
+  text-align: center;
+  overflow: hidden;
+}
+.inspCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.3rem;
+}
+.inspCard > img {
+  border-radius: 50%;
+  max-width: 70%;
+  height: auto;
+  margin: 1.5rem 0;
+  box-shadow: 0px 0px 10px rgba(90, 90, 90, 0.966);
+  cursor: pointer;
+}
+.inspBox > p {
+  font-size: clamp(1rem, 1vw + 1rem, 2rem);
+  font-weight: 500;
+}
+
+@media (max-width: 1024px) {
+  .inspWrapper {
+    grid-auto-columns: calc((100% / 4));
+  }
+}
+@media (max-width: 768px) {
+  .inspWrapper {
+    grid-auto-columns: calc((100% / 3));
+  }
+}
+@media (max-width: 425px) {
+  .inspWrapper {
+    grid-auto-columns: calc((100% / 2));
+  }
+}

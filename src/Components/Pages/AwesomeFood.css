@@ -1,0 +1,72 @@
+.awesDiv {
+  padding: 2rem 0;
+  border-bottom: 1px solid rgb(223, 223, 223);
+}
+.awesBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+.awesBox > p:first-child {
+  font-size: clamp(1rem, 1vw + 1rem, 2rem);
+}
+.awesWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 5rem;
+}
+.awesCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 12rem;
+  padding: 0.6rem;
+  box-shadow: 0px 0px 10px rgba(131, 131, 131, 0.438);
+  gap: 1rem;
+  cursor: pointer;
+}
+.awesCard img {
+  max-width: 100%;
+  border-radius: 50%;
+  border: 0.4rem solid goldenrod;
+  margin-bottom: 2rem;
+}
+.awesCard > p:nth-child(2) {
+  font-weight: 800;
+  font-size: 1rem;
+}
+.awesCard p:last-child {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+.awesCard p:nth-child(3) {
+  font-size: clamp(1.5rem, 3vw, 2rem);
+  font-family: "Bungee Spice", sans-serif;
+}
+
+@media (max-width: 768px) {
+  .awesCard img {
+    max-width: 100%;
+
+    border-radius: 50%;
+    border: 0.4rem solid goldenrod;
+    margin-bottom: 2rem;
+  }
+  .awesWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 2rem;
+    margin: 0 20%;
+  }
+}
+@media (max-width: 425px) {
+  .awesWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 2rem;
+  }
+}
