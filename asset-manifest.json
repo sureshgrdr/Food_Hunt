@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/Food_Hunt/static/css/main.7e39a635.css",
+    "main.js": "/Food_Hunt/static/js/main.98eb79e1.js",
+    "static/media/Combo3.jpg": "/Food_Hunt/static/media/Combo3.a86001c2a897ac30aae2.jpg",
+    "static/media/Chicken_65_Leg.jpg": "/Food_Hunt/static/media/Chicken_65_Leg.06699ae5113dcff95e90.jpg",
+    "static/media/Domino_Combo.jpg": "/Food_Hunt/static/media/Domino_Combo.dcc42ecbf273c6d14b6f.jpg",
+    "static/media/Chicken_Biriyani.jpg": "/Food_Hunt/static/media/Chicken_Biriyani.bed028f7f0ea4daa2a6c.jpg",
+    "static/media/Pizza.jpg": "/Food_Hunt/static/media/Pizza.56160c97683a249b4010.jpg",
+    "static/media/Combo2.jpg": "/Food_Hunt/static/media/Combo2.9a8d190c70af83f92b30.jpg",
+    "static/media/Kwality_Walls.jpg": "/Food_Hunt/static/media/Kwality_Walls.ad850010842bb069b033.jpg",
+    "static/media/Anjappar.jpg": "/Food_Hunt/static/media/Anjappar.4a109c5dcaae16b007d8.jpg",
+    "static/media/Fresh_Juice.jpg": "/Food_Hunt/static/media/Fresh_Juice.69bf3dc2f3560eda4081.jpg",
+    "static/media/Chicken_Combo.jpg": "/Food_Hunt/static/media/Chicken_Combo.1d509ca49337403ce1a4.jpg",
+    "static/media/Banner.jpg": "/Food_Hunt/static/media/Banner.2e38b72d644b544c0989.jpg",
+    "static/media/Chicken_Rice.jpg": "/Food_Hunt/static/media/Chicken_Rice.b5309d77e3980a3d0349.jpg",
+    "static/media/Ibaco.jpg": "/Food_Hunt/static/media/Ibaco.dde5fb00043939be927b.jpg",
+    "static/media/Burger.jpg": "/Food_Hunt/static/media/Burger.b6048790a8014d5be97c.jpg",
+    "static/media/Card_KFC.jpg": "/Food_Hunt/static/media/Card_KFC.c9afa4ad23a853b70d0a.jpg",
+    "static/media/Burger_King_Combo.jpg": "/Food_Hunt/static/media/Burger_King_Combo.27da1484976925a24da3.jpg",
+    "static/media/McDonalds.jpg": "/Food_Hunt/static/media/McDonalds.1ec8c901a75c3471c0c5.jpg",
+    "static/media/Combo1.jpg": "/Food_Hunt/static/media/Combo1.a5f77c895248d15703ec.jpg",
+    "static/media/Cake.jpg": "/Food_Hunt/static/media/Cake.a6e622e245fbc0c38df6.jpg",
+    "static/media/Delivery.png": "/Food_Hunt/static/media/Delivery.c7b7bf174b219dbd6f34.png",
+    "index.html": "/Food_Hunt/index.html",
+    "main.7e39a635.css.map": "/Food_Hunt/static/css/main.7e39a635.css.map",
+    "main.98eb79e1.js.map": "/Food_Hunt/static/js/main.98eb79e1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7e39a635.css",
+    "static/js/main.98eb79e1.js"
+  ]
+}
