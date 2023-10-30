@@ -97,7 +97,7 @@ input::placeholder {
   cursor: pointer;
 }
 .btn:hover {
-  background-color: rgb(248, 88, 88);
+  background-color: #f85858;
   transition: ease-in 100ms;
   color: white;
 }
@@ -116,6 +116,7 @@ input::placeholder {
   display: none;
 }
 
+/*  Log In */
 .logBg {
   position: fixed;
   top: 0;
@@ -123,10 +124,11 @@ input::placeholder {
   width: 100%;
   height: 100%;
   background-color: rgb(31, 31, 31);
-  opacity: 0.98;
+  opacity: 0.99;
 }
 .loginForm {
-  height: 100%;
+  /* height: 100%; */
+  /* width: 100vw; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -136,6 +138,60 @@ input::placeholder {
   z-index: 999;
   color: white;
 }
+.loginForm > p {
+  font-size: 0.8rem;
+}
+.closeLogBtn {
+  margin-top: 3rem;
+  font-size: 1.5rem;
+  background-color: white;
+  padding: 0.3em;
+  border-radius: 50%;
+  color: black;
+}
+.logCred {
+  /* width: 20vw; */
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: space-between;
+  gap: 1.5rem;
+  padding: 2.5rem;
+  /* background-color: rgba(255, 255, 255, 0.589); */
+  /* border-radius: 1rem; */
+  border-bottom: 1px solid rgb(223, 223, 223);
+}
+.logCred div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+}
+.logCred span {
+  font-size: 1.8rem;
+}
+.logCred input {
+  border-radius: 1.5em;
+  padding: 0.5rem;
+  border-style: none;
+  outline: none;
+  border: 2px solid lightgray;
+}
+.clearBtn {
+  color: rgb(255, 63, 63);
+  /* background-image: linear-gradient(to right, rgb(253, 127, 127), rgb(255, 63, 63)); */
+  font-size: 1rem;
+  border-radius: 100% !important;
+  padding: 0.4em 0.8em !important;
+  border: none !important;
+}
+.logCred button {
+  color: rgb(255, 63, 63);
+  /* background-image: linear-gradient(to right, rgb(253, 127, 127), rgb(255, 63, 63)); */
+  font-size: 1rem;
+  padding: 0.3em 1.5em;
+}
 
 .logOpen {
   display: block;
@@ -143,6 +199,14 @@ input::placeholder {
 .logClosed {
   display: none;
 }
+.sigOpen {
+  display: block;
+}
+.sigClosed {
+  display: none;
+}
+
+/* ------------------------------*/
 
 @media (max-width: 768px) {
   .toggleBtn {

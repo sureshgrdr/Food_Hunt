@@ -8,6 +8,7 @@ function BestFood() {
   let [sorRat, setSorRat] = useState(true);
   let [srhTrm, setSrhTrm] = useState("");
   let [srhTags, setSrhTags] = useState([]);
+  // let [fltr, setFltr] = useState();
 
   let [...allTags] = new Set(
     bestFood
@@ -124,6 +125,7 @@ function BestFood() {
               return item.tags.toString().includes(srhTrm.toLocaleLowerCase()) || item.name.toLowerCase().toString().includes(srhTrm.toLocaleLowerCase());
             })
             .map((item) => {
+              console.log(item ? "y" : "n");
               return (
                 <li className="foodCard" key={item.id}>
                   <img src={item.image} alt={item.name} />
