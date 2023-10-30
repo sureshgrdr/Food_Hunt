@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Food_Hunt/static/css/main.7e39a635.css",
-    "main.js": "/Food_Hunt/static/js/main.98eb79e1.js",
+    "main.css": "/Food_Hunt/static/css/main.f6170af7.css",
+    "main.js": "/Food_Hunt/static/js/main.883b8d79.js",
     "static/media/Combo3.jpg": "/Food_Hunt/static/media/Combo3.a86001c2a897ac30aae2.jpg",
     "static/media/Chicken_65_Leg.jpg": "/Food_Hunt/static/media/Chicken_65_Leg.06699ae5113dcff95e90.jpg",
     "static/media/Domino_Combo.jpg": "/Food_Hunt/static/media/Domino_Combo.dcc42ecbf273c6d14b6f.jpg",
@@ -23,11 +23,11 @@
     "static/media/Cake.jpg": "/Food_Hunt/static/media/Cake.a6e622e245fbc0c38df6.jpg",
     "static/media/Delivery.png": "/Food_Hunt/static/media/Delivery.c7b7bf174b219dbd6f34.png",
     "index.html": "/Food_Hunt/index.html",
-    "main.7e39a635.css.map": "/Food_Hunt/static/css/main.7e39a635.css.map",
-    "main.98eb79e1.js.map": "/Food_Hunt/static/js/main.98eb79e1.js.map"
+    "main.f6170af7.css.map": "/Food_Hunt/static/css/main.f6170af7.css.map",
+    "main.883b8d79.js.map": "/Food_Hunt/static/js/main.883b8d79.js.map"
   },
   "entrypoints": [
-    "static/css/main.7e39a635.css",
-    "static/js/main.98eb79e1.js"
+    "static/css/main.f6170af7.css",
+    "static/js/main.883b8d79.js"
   ]
 }
